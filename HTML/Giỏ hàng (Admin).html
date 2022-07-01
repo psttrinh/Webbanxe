@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Giỏ hàng (Admin)</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Giỏ hàng.css">
+</head>
+<body>
+	<div class="menu"> 
+		<div class="danhsach">
+			<ul>
+				<li><a href="Trang chủ (Admin).html"> <img srC="../IMAGE/My Boo.png" width="190px" height="130px"></a></li>
+				<li><a href="Trang chủ (Admin).html"> TRANG CHỦ </a></li>
+				<li><a href="Động cơ (Admin).html"> CÔNG NGHỆ </a></li>
+				<li><a href="Bảng Giá (Admin).html" > BẢNG GIÁ </a></li>
+				<li><a href="Danh sách (Admin).html"> SẢN PHẨM </a></li>
+				<li><a href="timkiem (Admin).html"> TÌM KIẾM </a></li>
+		  	</ul>	
+		</div>
+	</div>
+	<div class="dn">
+		<a>Chào admin !!!  </a>
+		<a> , </a>
+		<a href="Trang chủ.html"> Đăng xuất</a>
+		<a> | </a>
+		<a href="Giỏ hàng (Admin).html"><img src="../IMAGE/tải xuống.png"> Giỏ Hàng</a>
+	</div>
+	<hr size=5px width=100% color=red>
+	<div class="top">
+		<img src="../IMAGE/news.jpg">
+	</div>
+	<h1>Sản phẩm</h1>
+	<table class="table" border="1" id="myShop">
+		<tr id=ch0>
+			<td class="table6">WIGO 4AT</td>
+			<td class="price">405.000.000 VND</td>
+			<td class="button"><input value="Thêm vào giỏ hàng" type="button" onClick="Them(0);"></td>
+		</tr>
+		<tr id=ch1>
+			<td class="table6">YARIS 1.5G CVT</td>
+			<td>650.000.000 VND</td>
+			<td class="button"><input value="Thêm vào giỏ hàng" type="button" onClick="Them(1);"></td>
+		</tr>
+		<tr id=ch2>
+			<td class="table6">HILUX 2.8 G 4X4 AT MLM</td>
+			<td>878.000.000 VND</td>
+			<td class="button"><input value="Thêm vào giỏ hàng" type="button" onClick="Them(2);"></td>
+		</tr>
+		<tr id=ch3>
+			<td class="table6">CAMRY 2.5Q</td>
+			<td>1.235.000.000 VND</td>
+			<td class="button"><input value="Thêm vào giỏ hàng" type="button" onClick="Them(3);"></td>
+		</tr>
+		<tr id=ch4>
+			<td class="table6">ALPHARD LUXURY</td>
+			<td>4.038.000.000 VND</td>
+			<td class="button"><input value="Thêm vào giỏ hàng" type="button" onClick="Them(4);"></td>
+		</tr>
+	</table>
+	<h1>Giỏ hàng của bạn</h1>
+		<table class="button table2" border=1 id=myCart>
+			<tr>
+				<td>Giỏ hàng của bạn chưa có sản phẩm nào</th>
+			</tr>
+		</table>
+	<hr size=5px width=100% color=red>
+	<div class="hotline">
+		<h3> CÔNG TY Ô TÔ NTD VIỆT NAM</h3>
+		<h4> Địa Chỉ:141-145 Điện Biên Phủ ,phường 15 ,Quận Bình Thạnh, TP HCM</h4>
+		<h5> Hot line: 1800 6969 6969</h5>
+	</div>
+	<script>
+		var vShop = document.getElementById("myShop");
+		var vCart = document.getElementById("myCart");
+		function setRed(index){
+			document.getElementById("ch"+index).style.color="red";
+		}
+		var dem = 0; 
+		function Them(index){
+			setRed(index);
+			//nhận giá trị --- get value
+			var sRow = vShop.rows[index];
+			var sCellName = sRow.cells[0].innerHTML;
+			var sCellPrice = sRow.cells[1].innerHTML;
+			//đặt giá trị vào giỏ hàng --- get value to Cart
+			if(vCart.rows.length == 1 && vCart.rows[0].cells.length == 1){
+				vCart.deleteRow(vCart.rows[0]);
+			}
+			var cartLen = vCart.rows.length;
+			var cRow = vCart.insertRow(cartLen );
+			var cName = cRow.insertCell(0); cName.innerHTML = sCellName;
+			var cPrice = cRow.insertCell(1); cPrice.innerHTML = sCellPrice;
+			var vBtn = cRow.insertCell(2); vBtn.innerHTML = "<input type='button' value='Xóa sản phẩm' onClick='fxoa("+ cRow.rowIndex +")'>";
+			dem++;
+		}
+		function fxoa(index){
+			vCart.deleteRow(index);
+		}
+	</script>
+</body>
+</html>

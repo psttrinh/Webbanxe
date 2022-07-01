@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TÌM KIẾM</title>
+	<link rel="stylesheet" href="../CSS/tk.css" type="text/css">
+</head>
+	
+
+<body>
+	<div class="menu">
+	  
+	  <div class="danhsach">
+			<ul>
+				<li><a href="Trang chủ.html"> <img srC="../IMAGE/My Boo.png" width="190px" height="130px"></a></li>
+				<li><a href="Trang chủ.html"> TRANG CHỦ </a></li>
+				<li><a href="Động Cơ.html"> CÔNG NGHỆ </a></li>
+				<li><a href="Bảng Giá.html" > BẢNG GIÁ </a></li>
+				<li><a href="Danh sách.html"> SẢN PHẨM </a></li>
+				<li><a href="timkiem.html"> TÌM KIẾM </a></li>
+		  	</ul>	
+		</div>
+	</div>
+	<div class="dn">
+		<a href="dangnhap2.html">Đăng nhập </a>
+		<a> | </a>
+		<a href="dangki2.html"> Đăng ký</a>
+		<a> | </a>
+		<a href="dangnhap2.html"><img src="../IMAGE/tải xuống.png"> Giỏ Hàng</a>
+	</div>
+	
+		  	<hr color="red" size="4px">
+		  
+<div class ="timkiem">
+			 	<input type="" name="" id="tensanpham" onkeyup="myFunction()" placeholder ="Tìm kiếm sản phẩm">
+				<button type="button"> Click </button>	    
+	 <ul id="sanpham">
+
+		 	<li><a href="WIGO 4AT.html">WIGO</a></li>
+		 	<li><a href="YARIS 1.5G CVT.html">YARIS</a></li>
+		 	<li><a href="CAMRY 2.5Q.html">CAMRY</a></li>
+		 	<li><a href="ALPHARD LUXURY.html">ALPHARD</a></li>
+		 	<li><a href="HILUX 2.8 G 4X4 AT MLM.html">HILUX</a></li>
+	</ul>
+	</div>
+	
+	<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('tensanpham');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("sanpham");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+		  
+	 
+</body>
+</html>

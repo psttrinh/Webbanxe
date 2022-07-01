@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Đăng Ký</title>
+      <link rel="stylesheet" type="text/css" href="../CSS/dangki1.css">
+      <script type = "text/javascript">
+         function validateForm()  {
+             var u = document.getElementById("username").value;
+             var p = document.getElementById("sdt").value;
+			 var G = document.getElementById("gmail").value;
+			 var M = document.getElementById("password").value;
+			 var N = document.getElementById("nl").value;
+ 
+             if(u== "") {
+                 alert("Vui lòng nhập tên đăng nhập của bạn");
+				 myForm["username"].focus();
+                 return false;
+             }
+             if(p == "") {
+                 alert("Vui lòng nhập số điện thoại của bạn");
+				  myForm["sdt"].focus();
+                 return false;
+             }
+			 if(p == "") {
+                 alert("Vui lòng nhập gmail của bạn");
+				  myForm["gmail"].focus();
+                 return false;
+             }
+			 if(p == "") {
+                 alert("Vui lòng nhập mật khẩu của bạn");
+				  myForm["password"].focus();
+                 return false;
+             }
+			 if(p == "") {
+                 alert("Vui lòng nhập lại mật khẩu của bạn");
+				  myForm["nl"].focus();
+                 return false;
+             }
+         }
+      </script>
+   </head>
+   <body>
+   <section class= "thietke">
+  <div class="menu">
+	  <div class="danhsach">
+			<ul>
+				<li>	<a href="./"> <img src="../IMAGE/My Boo.png" width="190px" height="130px"></a></li>
+				<li>	<a href="Trang chủ.html"> TRANG CHỦ </a></li>
+				<li>	<a href="Động Cơ.html"> CÔNG NGHỆ </a></li>
+				<li> <a href="Bảng Giá.html"> BẢNG GIÁ </a></li>
+                <li>	<a href="Danh sách.html"> SẢN PHẨM </a></li>
+				<li>	<a href="timkiem.html"> TÌM KIẾM </a></li>
+</ul>
+<div class="dangnhap">
+      <h2>Đăng ký</h2>
+ 
+      <div style="border:1px solid #ddd; padding: 5px;">
+         <form name = "myForm" method="GET" action="../Layout1/Layout1/validation/process-action.html" onsubmit = "return validateForm()">
+           <input type="text"  id="username" placeholder="Họ Và Tên"/>
+            <br><br>
+           <input type="text"  id="sdt" placeholder="Số Điện Thoại"/>
+            <br><br>
+             <input type="text"  id="gmail" placeholder="Gmail"/>
+              <br><br>
+              <input type="password"  id="password" placeholder="Mật Khẩu"/>
+              <br><br>
+              <input type="password"  id="nl" placeholder="Nhập Lại Mật Khẩu"/>
+            <button type="submit">Đăng ký</button>
+         </form>
+      </div>
+ </div>
+ </div>
+			<hr size=5px width= 100% color=red >
+		<div class="hotline">
+		<h3> CÔNG TY Ô TÔ NTD VIỆT NAM</h3>
+		<h4> Địa Chỉ:141-145 Điện Biên Phủ ,phường 15 ,Quận Bình Thạnh, TP HCM</h4>
+		<h5> Hot line: 1800 6969 6969</h5>
+
+	</div>
+   </body>
+</html><!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+</body>
+</html>
