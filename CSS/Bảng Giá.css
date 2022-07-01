@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: antiquewhite;
+	color: #000000;
+}
+.menu{
+	margin:30px;
+
+}
+.danhsach img{
+	margin-bottom:-43px;
+}
+.danhsach ul{
+   text-align: center;
+	margin:20px;
+	
+}
+.danhsach ul li{
+	display:inline-block;
+	padding:20px;
+	
+	
+}
+.danhsach ul li a{
+	text-decoration: none;
+	list-style: none;
+	font-size:25px;
+	color:#000000;
+	font-family:adamina;
+	font-weight:bold;
+	padding-bottom: 20px;
+
+}
+.danhsach a:hover{
+	color:#EF090C;
+}
+.dn {
+	 
+	font-size:22px;
+	padding:14px;
+	text-align: right;	
+}
+.dn img{
+	height:28px;
+	width:35px;
+	vertical-align: middle;
+}
+.dn a{
+	text-decoration: none;
+	color: black;
+}
+
+.dn a:hover{
+	color: red;
+}
+.image{
+	position: relative;
+}
+h2{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+	color: #000000;
+}
+
+.table{
+	margin-top: 50px;
+}
+table{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	margin-left: 180px;
+	text-align: center;
+}
+.image img{
+	width: 50%;
+}
+.Ngọc img{
+	width: 30%;
+}
+.table h3{
+	text-align: center;
+	margin-bottom: 30px;
+	padding-left: 18%;
+	padding-right: 18%;
+}
+.dc ul li{
+	display: inline-block;
+	margin-left: 300px;
+}
+.dc ul{
+	list-style: none;
+}
+.table h4{
+	font-size: 19px;
+}
+.table h5{
+	font-size: 13px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+.hotline{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.text{
+	width: 170px;
+}
+.text1{
+	width: 330px;
+}
+a:hover{
+	color: red;
+}

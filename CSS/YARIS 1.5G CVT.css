@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.664;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body{
+	font-family: Tahoma, arial, sans-serif;
+	background-color: antiquewhite;
+}
+.hotline{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.menu{
+	margin:20px;
+
+}
+.danhsach img{
+	margin-bottom:-43px;
+}
+.danhsach ul{
+  text-align: center;
+
+	
+}
+.danhsach ul li{
+	display:inline-block;
+	padding:20px;
+	
+	
+}
+.danhsach ul li a{
+	text-decoration: none;
+	list-style: none;
+	font-size:25px;
+	color:#000000;
+	font-family:adamina;
+	font-weight:bold;
+	padding-bottom: 20px;
+
+}
+.danhsach a:hover{
+	color:#EF090C;
+}
+
+.dn {
+	 
+	font-size:22px;
+	padding:14px;
+	text-align: right;	
+}
+.dn img{
+	height:28px;
+	width:35px;
+	vertical-align: middle;
+}
+.dn a{
+	text-decoration: none;
+	color: black;
+}
+
+.dn a:hover{
+	color: red;
+}
+.top{
+	margin: 0 5%;
+	padding-top: 50px;
+}
+.top img{
+	width: 100%;
+	height: 350px;
+}
+.introduce{
+	margin: 20px 10%;
+}
+.introduce ul{
+	list-style: none;
+}
+.introduce ul li{
+	display: inline-block;
+}
+.image8 img{
+	width: 500px;
+}
+.image8{
+	margin-left: 276px;
+}
+.button{
+	margin-left: 200px;
+}
+.image8 button{
+	width: 150px;
+	height: 50px;
+	font-size: 15px;
+	color: antiquewhite;
+	background-color: red;
+	border-radius: 5px;
+}
+.button button:hover{
+	background-color: orangered;
+}
+h2{
+	border-bottom: 1px solid black;
+	display: inline-block;
+	color: red;
+	margin-bottom: 15px;
+	font-size: 22.1px;	
+}
+h1{
+	margin-bottom: 10px;
+	font-size: 39px;
+}
+h3{
+	margin-bottom: 5px;
+}
+h4{
+	font-size: 13px;
+	line-height: 150%;
+	box-sizing: inherit;
+}
+.library1{
+	margin: 10px 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 170px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-bottom: 150px;
+}
+.library1 img{
+	width: 349.5px;
+	height: 170px;
+}
+.exterior{
+	margin: 0 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 340.34px 215.13px 215.13px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-top: 30px;
+	margin-bottom: 150px;
+}
+.exterior img{
+	width: 349.5px;
+	height: 215.13px;
+}
+.image1{
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	padding-left: 30px;
+}
+.image2{
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	
+}
+.image2 img{
+	width: 709px;
+	height: 340.34px;
+}
+.exterior h2{
+	padding-top: 70px;
+}
+.library h2{
+	margin: 0 10%;
+}
+.furniture{
+	margin: 0 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 340.34px 215.13px 215.13px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-top: 30px;
+	margin-bottom: 150px;
+}
+.furniture img{
+	width: 349.5px;
+	height: 215.13px;
+}
+.image3{
+	grid-column-start: 1;
+	grid-column-end: span 2;
+}
+.image4{
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	padding-left: 30px;
+}
+.image3 img{
+	width: 709px;
+	height: 340.34px;
+}.furniture h2{
+	padding-top: 70px;
+}
+.feature1{
+	margin: 10px 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 270px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-bottom: 30px;
+}
+.feature{
+	margin: 0 10%;
+	margin-bottom: 30px;	
+}
+.feature1 img{
+	height: 138.5px;
+	width: 349.5px;
+}
+.safe1{
+	margin: 10px 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 290px 320px 200px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-bottom: 150px;
+}
+.safe1 img {
+	width: 349.5px;
+	height: 138.5px;
+}
+.safe{
+	margin: 0 10%;
+}
+.text1 h3{
+	color: white;
+}
+.safe h3{
+	border-bottom: 1px solid black;
+	display: inline;
+}.feature h3{
+	border-bottom: 1px solid black;
+	display: inline;
+}
+.accessories1{
+	margin: 10px 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 200px 200px 200px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-bottom: 50px;
+}
+.accessories1 img {
+	width: 349.5px;
+	height: 138.5px;
+}
+.accessories h3{
+	border-bottom: 1px solid black;
+	display: inline;
+}
+.accessories{
+	margin: 0 10%;
+	margin-bottom: 30px;
+}
+.accessories3{
+	margin: 10px 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 200px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-bottom: 50px;
+}
+.accessories3 img {
+	width: 349.5px;
+	height: 138.5px;
+}
+.accessories2 h3{
+	border-bottom: 1px solid black;
+	display: inline;
+}
+.accessories2{
+	margin: 0 10%;
+	margin-bottom: 30px;
+}
+.accessories5{
+	margin: 10px 10%;
+	display: grid;
+	grid-template-columns: 349.5px 349.5px 349.5px 349.5px;
+	grid-template-rows: 200px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-bottom: 50px;
+}
+.accessories5 img {
+	width: 349.5px;
+	height: 138.5px;
+}
+.accessories4 h3{
+	border-bottom: 1px solid black;
+	display: inline;
+}
+.accessories4{
+	margin: 0 10%;
+	margin-bottom: 30px;
+}
+.specifications{
+	margin: 0 10%;
+	margin-bottom: 30px;
+}
+.specifications h3{
+	border-bottom: 1px solid black;
+	display: inline;
+}
+.table{
+	margin-left: 15%;
+	text-align: left;
+	width: 85%;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+td{
+	padding: 10.4px 13px;
+}
+.hotline{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.input1{
+	margin: 10px 10%;
+	display: grid;
+	grid-template-columns: 555px;
+	grid-template-rows: 59px 59px 59px 59px 59px;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-bottom: 	50px;
+}
+.input input{
+	width: 555px;
+	height: 39px;
+}
+form h1{
+	margin-left: 5%;
+}
+form button{
+	width: 150px;
+	height: 40px;
+	background-color:  red;
+	color: white;
+	border-radius: 5px;
+}
+.error{
+	color: red;
+}

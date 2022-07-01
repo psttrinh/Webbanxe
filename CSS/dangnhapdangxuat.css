@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+.dangnhap{
+	margin:0 40%;
+	width: 300px;
+	height: 350px;
+	border: 1px solid red;
+	broder-radius:10px;
+	text-align: center;
+}
+h2{
+	color:red;
+	font-family: sans-serif;
+}
+ input {
+	width: 200px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	boder:1px solid red;
+	padding-left: 20px;
+}
+button {
+	width: 200px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color:red;
+	color:white;
+}
+button:hover{
+	background-color:#FC4E51;	
+}
+h3{
+	color:black;
+}
+a{
+	text-decoration: none;
+}
+h3:hover{
+	color: red;
+}
+body{
+	background-color: antiquewhite;
+}
+.menu{
+	margin:30px;
+
+}
+.danhsach img{
+	margin-bottom:-43px;
+}
+.danhsach ul{
+   text-align: center;
+	margin:20px;
+	
+}
+.danhsach ul li{
+	display:inline-block;
+	padding:20px;
+	
+	
+}
+.danhsach ul li a{
+	text-decoration: none;
+	list-style: none;
+	font-size:20px;
+	color:#000000;
+	font-family:adamina;
+	font-weight:bold;
+	padding-bottom: 20px;
+
+}
+.danhsach a:hover{
+	color:#EF090C;
+}
+
+.timkiem {
+	height:30px;
+	width:320px;
+	background-color:#FFFFFF;
+}
+.timkiem input{
+	
+	width:280px;
+	height:25px;
+	border:0px;
+	
+}
+.timkiem  button {
+	width:34px;
+	height:30px;
+}
